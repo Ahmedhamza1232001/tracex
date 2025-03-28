@@ -14,11 +14,28 @@ This project is a **full-stack application** designed to monitor and trace API c
 - **Documentation:** Swagger, OpenAPI, Markdown-based docs
 
 ## ⚡ Features
-- Traces API requests from initiation to response
-- Measures total execution time, including DB interactions
-- Generates reports with performance insights
-- Supports distributed tracing for microservices
-- Provides structured logging and error tracking
+
+Core Features
+
+API Request Tracing: Monitors and records API requests from initiation to response.
+
+Execution Time Analysis: Measures request execution time, including database interaction times.
+
+TCP Handshake Tracking: Analyzes the time taken for API calls to establish a connection with the database.
+
+Error Detection: Identifies failed requests and provides detailed error logs.
+
+Performance Reports: Generates detailed reports with response time metrics.
+
+Additional Features
+
+Filtering & Sorting: Search and filter requests by endpoint, response time, status code, and more.
+
+Real-time Monitoring: Live dashboard to track API performance.
+
+Alerts & Notifications: Notify developers when an endpoint exceeds a response time threshold.
+
+Multi-Tenant Support: Designed for scalability, allowing multiple projects to be monitored simultaneously.
 
 ## 📦 Project Structure
 ```
